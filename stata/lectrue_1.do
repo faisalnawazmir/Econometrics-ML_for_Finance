@@ -1,6 +1,6 @@
 clear
 cls
-import excel "C:\Users\Mir\OneDrive - Higher Education Commission\A_myDatalit\Faisal Docs\Econometrics\ChrisBrookEco\Introductory Econometrics for Finance\General Resources\Excel Files\UKHP.xls", sheet("Monthly") firstrow
+import excel "C:\Users\Mir\UKHP.xls", sheet("Monthly") firstrow
 browse
 describe
 codebook
