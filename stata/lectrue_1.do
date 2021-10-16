@@ -1,6 +1,6 @@
 clear
 cls
-import excel "C:\Users\Mir\UKHP.xls", sheet("Monthly") firstrow * simply import data to stata, you  may use drop down menu.
+import excel "C:\Users\Mir\data\UKHP.xls", sheet("Monthly") firstrow * simply import data to stata, you  may use drop down menu.
 browse
 describe
 codebook
