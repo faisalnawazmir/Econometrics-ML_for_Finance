@@ -23,5 +23,7 @@ br
 tsline price
 tsline logret
 histogram price
+restore
+save "C:\Users\Mir\data\sp500.dta"
 import excel "C:\Users\Mir\data\UKHP.xls", sheet("Monthly") firstrow clear
 save "C:\Users\Mir\data\ukhp.dta"
